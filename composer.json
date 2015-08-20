@@ -1,0 +1,12 @@
+{
+    "name": "example-app",
+    "require": {
+        "cakephp/cakephp": "2.6.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "3.7.*"
+    },
+    "config": {
+        "vendor-dir": "vendor/"
+    }
+}

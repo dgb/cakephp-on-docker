@@ -1,0 +1,15 @@
+web:
+  build: .
+  links:
+    - db
+  ports:
+    - 80
+db:
+  image: mysql
+  ports:
+    - "3306:3306"
+  environment:
+    MYSQL_ROOT_PASSWORD: secret
+    MYSQL_DATABASE: cakephp
+    MYSQL_USER: user
+    MYSQL_PASSWORD: password
