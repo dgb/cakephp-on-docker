@@ -1,6 +1,13 @@
 # CakePHP on Docker Example
 
-To run tests:
+Build the image:
 
     docker-compose build
+
+To run a server:
+
+    docker-compose up
+
+To run tests:
+
     docker-compose run web app/Console/cake test app
